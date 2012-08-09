@@ -1,9 +1,9 @@
 @import url("screen.css");
 
-#header {background: #0F4FA8;}
-#branding {background: #284C7E;}
+#header {background: #fff;}
+#branding {background: #fff;}
 
-#content {background:#05316D;}
+#content {background:#fff;}
 
-#footer {background:#4380D3;}
-#branding-footer {background: #6996D3;}
+#footer {background:#fff;}
+#branding-footer {background: #fff;}

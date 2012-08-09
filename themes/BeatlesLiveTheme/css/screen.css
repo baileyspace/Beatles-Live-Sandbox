@@ -2,9 +2,20 @@
 @import url("reset.css");
 
 /* == Generic styles ======== */
+@font-face {
+    font-family: Bootle;
+    src: url('../fonts/bootle__-webfont.eot'),
+         url('../fonts/bootle__-webfont.woff') format('woff'),
+         url('../fonts/bootle__-webfont.ttf') format('truetype'),
+         url('../fonts/bootle__-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {font:62.5% "Helvetica Neue", "Helvetica", "Arial", Times, serif; color:#1F2109; min-width:940px;}
 
-h1 {margin:5px 0 0 15px;}
+h1 {margin:5px 0 0 15px; font-family:'BOOTLERegular'}
 h1 {font-size:3em; margin-bottom:0.666667em; line-height:1.333333em;}
 h2 {font-size:2em; margin-bottom:.25em; line-height:1em;}
 h3 {font-size:2em; margin-bottom:.25em; line-height:1em;}
@@ -45,14 +56,14 @@ h3 a {text-decoration:none;}
 
 /* == Header == */
 
-#header {background: #ffbe40; border: 1px solid #fff; min-height: 15em; padding: 0 1em 0 1em; margin: 5em 0 0 0;}
+#header {background: #fff; border: 1px solid #fff; min-height: 15em; padding: 0 1em 0 1em; margin: 5em 0 0 0;}
 
         /* == Coloured Inner-bar across the top == */
-        #branding {background: #ffa900; border-left: 1px solid #fff; border-right: 1px solid #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 15em;}
+        #branding {background: #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 15em;}
         
         /* == Linked Main Title == */
-        #site-title {font-size: 6em; padding: 20px 0 0 50px;}
-        #site-title a {color: #fff; text-decoration: none;}
+        #site-title {font-family: 'Bootle', cursive; font-size: 6em; padding: 20px 0 0 50px;}
+        #site-title a {color: ##FE0000; text-decoration: none;}
         
         /* == Search Box == */
         
@@ -64,9 +75,9 @@ h3 a {text-decoration:none;}
         #header #branding ul li {margin-left: 12px; }
         
 /* == Content == */
-#content {background:#ffcf73;}
+#content {background:#fff;}
 
-	#primary-index {background: #fff url("../images/splash.jpg"); width: 900px; margin-left: auto; margin-right: auto; min-height: 600px;} 
+	#primary-index {background: #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 600px;} 
         #primary-items {background: #fff; width: 900px; min-height: 300px; margin-left: auto; margin-right: auto; padding: 15px 0 0 0;}
         #primary {background: #fff; width: 830px; min-height: 300px; margin-left: auto; margin-right: auto; padding: 15px 35px 0 35px;}
         #primary h2, h1{margin: 0 0 .25em 0;}
@@ -74,21 +85,8 @@ h3 a {text-decoration:none;}
 
         /* == Splash Page buttons == */
             
-            #buttons {font-size: 1.8em;}
-            #buttons a {text-decoration: none; display: block; color: #fff; border: 3px solid #fff; }
-            #buttons a:hover{border: 3px solid #000;}
-            
             /* To disable or change the text on a button, alter "index.php" To change the background image, alter "/images/splash.jpg" */
-            .button1 {display: block; width: 300px; float: left;}
-                .button1 a {min-height: 42px; margin: 3px 0 0 3px; padding: 150px 0 0 170px;}
-            .button2 {display: block; width: 600px; float: right;}
-                .button2 a {min-height: 162px; margin: 3px 3px 0 0; padding: 30px 0 0 80px;}
-            .button3 {display: block; width: 300px; float: left;}
-                .button3 a {min-height: 262px; margin: 0 0 3px 3px; padding: 130px 0 0 80px;}
-            .button4 {display: block; width: 300px; float: left;}
-                .button4 a {min-height: 155px; padding: 40px 0 0 85px;}
-            .button5 {display: block; width: 300px; float: right;}
-                .button5 a {min-height: 94px; margin: 197px 3px 3px 0; padding: 100px 0 0 20px;}
+			.youtube {display: block; width: 600px; float left}
                 
         /* == Navigation for Browsing / Item Pages == */        
                 
@@ -139,10 +137,11 @@ h3 a {text-decoration:none;}
             .exhibit-page-nav li {font-size:1.5em;} 
 
 /* == Footer == */
-#footer {clear:both; overflow:hidden; background:#FFB117; min-height: 5em;}
-	#branding-footer {background: #ff7100; width: 900px; margin-left: auto; margin-right: auto; min-height: 8em;  border-left: solid 1px #fff; border-right: solid 1px #fff;}
+#footer {clear:both; overflow:hidden; background:#fff; min-height: 5em;}
+	#branding-footer {background: #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 8em;  border-left: solid 1px #fff; border-right: solid 1px #fff;}
         #footer #branding-footer p {clear: both; overflow: hidden; float: right; font-size: 0.8em; color: #fff; padding: 0 15px 0;}
-        #footer #branding-footer a {color: #fff; text-decoration: none;}
+        #footer #branding-footer a {color: #000; text-decoration: none;}
+		#footer #branding-footer a:hover {color: #5b5450; text-decoration: none;}
 	#footer #branding-footer ul {float:right; width:578px; margin:0 0 1em 60px; text-align:right; padding: 0 15px 0 0;}
 		#footer #branding-footer ul li {margin-left:12px;}	
 
@@ -151,7 +150,8 @@ h3 a {text-decoration:none;}
 
 .navigation {list-style:none; margin: 2em 0 0;}
 	.navigation li {display:inline;}
-	.navigation a {text-decoration:none; color: #fff;}
+	.navigation a {text-decoration:none; color: #000;}
+	.navigation a:hover {color: #5b5450; text-decoration: none;}
         #header #footer .navigation li {font-size:1.5em;}
 
 .item-pagination {overflow:hidden;width:830px;border-top:1px solid #ccc; padding:1.5em 0 1.5em 0;}

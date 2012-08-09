@@ -2,14 +2,7 @@
 
 <div id="primary-index">
 
-    <div id="buttons">
-	  <div class="button1"><a href="about">Learn More</a></div>
-	  <div class="button2"><a href="collections">Collections</a></div>
-	  <div class="button3"><a href="exhibits">Exhibits</a></div>
-	  <div class="button4"><a href="items">Browse Items</a></div>
-	  <div class="button5"><a href="contact">Contact</a></div>
-	  
-    </div>
+	<div class= "youtube"><iframe width="600" height="450" src="http://www.youtube.com/embed/7pQPjpX82z8" frameborder="0" allowfullscreen></iframe></div>
  
     
 </div><!-- end primary -->

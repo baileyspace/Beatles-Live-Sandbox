@@ -1,7 +1,7 @@
 <div id="footer">
 	<div id="branding-footer">
 		<ul class="navigation">	
-	    	<?php echo public_nav_main(array('Home' => uri(''), 'Browse Items' => uri('items'), 'Collections'=>uri('collections')));
+	    	<?php echo public_nav_main(array('Home' => uri(''), 'Browse Items' => uri('items'), 'Go On Tour'=>uri('collections')));
 	    	?>
 		</ul>
 	
