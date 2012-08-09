@@ -12,7 +12,9 @@
     font-style: normal;
 
 }
-
+.clear {
+	clear:both;
+}
 body {
 	font:62.5% "Helvetica Neue", "Helvetica", "Arial", Times, serif; 
 	color:#1F2109; 
@@ -39,12 +41,22 @@ h3 {
 	}
 
 /* Links */
-a:link {color:#1F2109;}
-a:visited {color:#1F2109;}
-a:hover {color:#777;}
-a:active {color:#777;}
+a:link {
+	color:#1F2109;
+	}
+a:visited {
+	color:#1F2109;
+	}
+a:hover {
+	color:#777;
+	}
+a:active {
+	color:#777;
+	}
 
-h3 a {text-decoration:none;}
+h3 a {
+	text-decoration:none;
+	}
 
 /* Microformats */
 /*.hTagcloud {margin: 6em 3em 5em 3em;}
@@ -104,28 +116,84 @@ h3 a {text-decoration:none;}
         
 /* == Search Box == */
         
-        #header #branding #search-wrap {float: right; margin: 5px 5px 0 0;}
-        #header #branding #search-wrap a {font-size: 1em; color: #fff; margin-top: .25em; text-decoration: none;}
-        
-        /* == Top Navigation == */
-        #header #branding ul {float: right; width:578px; padding:0 15px 0 60px; text-align:right; color: #000;}
-        #header #branding ul li {margin-left: 12px; }
+#header #branding #search-wrap {
+	float: right; 
+	margin: 5px 5px 0 0;
+	}
+#header #branding #search-wrap a {
+	font-size: 1em; 
+	color: #fff; 
+	margin-top: .25em; 
+	text-decoration: none;
+	}
+
+/* == Top Navigation == */
+#header #branding ul {
+	float: right; 
+	width:578px; 
+	padding:0 15px 0 60px; 
+	text-align:right; 
+	color: #000;
+	}
+#header #branding ul li {
+	margin-left: 12px; 
+	}
         
 /* == Content == */
-#content {background:#fff;}
+#content {
+	background:#fff;
+	}
 
-	#primary-index {background: #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 600px;} 
-        #primary-items {background: #fff; width: 900px; min-height: 300px; margin-left: auto; margin-right: auto; padding: 15px 0 0 0;}
-        #primary {background: #fff; width: 830px; min-height: 300px; margin-left: auto; margin-right: auto; padding: 15px 35px 0 35px;}
-        #primary h2, h1{margin: 0 0 .25em 0;}
-        #primary-items h1, h2{margin: 0 0 0 35px;}
+#primary-index {
+	background: #fff; 
+	width: 900px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	min-height: 600px;
+	} 
+#primary-items {
+	background: #fff; 
+	width: 900px; 
+	min-height: 300px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	padding: 15px 0 0 0;
+	}
+#primary {
+	background: #fff; 
+	width: 830px; 
+	min-height: 300px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	padding: 15px 35px 0 35px;
+	}
+#primary h2, h1{
+	margin: 0 0 .25em 0;
+	}
+#primary-items h1, h2{
+	margin: 0 0 0 35px;
+	}
 
-        /* == Splash Page buttons == */
+/* == Home Grid == */
+
+.moviebars {
+	background: black;
+	width: 100px;
+	height: 525px;
+	float: left;
+}
             
             /* To disable or change the text on a button, alter "index.php" To change the background image, alter "/images/splash.jpg" */
-			.youtube {display: block; width: 600px; float left}
+.youtube {
+	display: block; 
+	width: 700px;
+	height: 525px; 
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	}
                 
-        /* == Navigation for Browsing / Item Pages == */        
+/* == Navigation for Browsing / Item Pages == */        
                 
             .secondary-left {float: left; width: 33%; height: 200px; border: 1px solid #b9f9b9;}
             .secondary-centre {float: left; width: 33%; height: 200px; margin: auto; border: 1px dotted #f01f01; padding: 50px 50px 50px 50px;}
