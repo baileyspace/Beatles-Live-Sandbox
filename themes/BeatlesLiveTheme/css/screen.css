@@ -13,12 +13,30 @@
 
 }
 
-body {font:62.5% "Helvetica Neue", "Helvetica", "Arial", Times, serif; color:#1F2109; min-width:940px;}
+body {
+	font:62.5% "Helvetica Neue", "Helvetica", "Arial", Times, serif; 
+	color:#1F2109; 
+	min-width:940px;}
 
-h1 {margin:5px 0 0 15px; font-family:'BOOTLERegular'}
-h1 {font-size:3em; margin-bottom:0.666667em; line-height:1.333333em;}
-h2 {font-size:2em; margin-bottom:.25em; line-height:1em;}
-h3 {font-size:2em; margin-bottom:.25em; line-height:1em;}
+h1 {
+	margin:5px 0 0 15px; 
+	font-family:'BOOTLERegular'
+	}
+h1 {
+	font-size:3em; 
+	margin-bottom:0.666667em; 
+	line-height:1.333333em;
+	}
+h2 {
+	font-size:2em; 
+	margin-bottom:.25em; 
+	line-height:1em;
+	}
+h3 {
+	font-size:2em; 
+	margin-bottom:.25em; 
+	line-height:1em;
+	}
 
 /* Links */
 a:link {color:#1F2109;}
@@ -29,7 +47,7 @@ a:active {color:#777;}
 h3 a {text-decoration:none;}
 
 /* Microformats */
-.hTagcloud {margin: 6em 3em 5em 3em;}
+/*.hTagcloud {margin: 6em 3em 5em 3em;}
 .hTagcloud ul {list-style:none; margin-left:0; padding-left:0; line-height:1.8em;}
 	.hTagcloud li {display:inline;margin-right:25px;}
         .hTagcloud li a {text-decoration: underline;}
@@ -52,20 +70,39 @@ h3 a {text-decoration:none;}
 	.vvvvv-popular a, .vvvvv-popular a:visited {color: #1F2109;}
 	.vvvvvv-popular a, .vvvvvv-popular a:visited {color: #1F2109;}
 	.vvvvvvv-popular a, .vvvvvvv-popular a:visited {color: #1F2109;}
-	.vvvvvvvv-popular a, .vvvvvvvv-popular a:visited {color: #1F2109;}
+	.vvvvvvvv-popular a, .vvvvvvvv-popular a:visited {color: #1F2109;}*/
 
 /* == Header == */
 
-#header {background: #fff; border: 1px solid #fff; min-height: 15em; padding: 0 1em 0 1em; margin: 5em 0 0 0;}
+#header { 
+	min-height: 15em; 
+	padding: 0 1em 0 1em; 
+	margin: 5em 0 0 0;
+	}
 
-        /* == Coloured Inner-bar across the top == */
-        #branding {background: #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 15em;}
+/* == Coloured Inner-bar across the top == */
+#branding {
+	width: 900px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	min-height: 15em;
+	}
         
-        /* == Linked Main Title == */
-        #site-title {font-family: 'Bootle', cursive; font-size: 6em; padding: 20px 0 0 50px;}
-        #site-title a {color: ##FE0000; text-decoration: none;}
+/* == Linked Main Title == */
+#site-title a {
+	visibility: hidden;
+	}
+#site-title {
+	width:auto;
+	height: 200px;
+	background-color: black;
+	background-image: url('../images/BeatlesLiveNow_300.jpg');
+	background-repeat:no-repeat;	
+	background-attachment:fixed;
+	background-position:center;
+	}
         
-        /* == Search Box == */
+/* == Search Box == */
         
         #header #branding #search-wrap {float: right; margin: 5px 5px 0 0;}
         #header #branding #search-wrap a {font-size: 1em; color: #fff; margin-top: .25em; text-decoration: none;}
