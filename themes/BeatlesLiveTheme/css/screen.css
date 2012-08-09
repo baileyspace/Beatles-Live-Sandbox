@@ -87,18 +87,10 @@ h3 a {
 /* == Header == */
 
 #header { 
-	min-height: 15em; 
-	padding: 0 1em 0 1em; 
-	margin: 5em 0 0 0;
+	min-height: 19em; 
+	padding: 2em 1em 0 1em; 
 	}
 
-/* == Coloured Inner-bar across the top == */
-#branding {
-	width: 900px; 
-	margin-left: auto; 
-	margin-right: auto; 
-	min-height: 15em;
-	}
         
 /* == Linked Main Title == */
 #site-title a {
@@ -106,21 +98,21 @@ h3 a {
 	}
 #site-title {
 	width:auto;
-	height: 200px;
+	height: 160px;
 	background-color: black;
 	background-image: url('../images/BeatlesLiveNow_300.jpg');
 	background-repeat:no-repeat;	
-	background-attachment:fixed;
-	background-position:center;
+/*	background-attachment:fixed;
+*/	background-position:17% 0%;
 	}
         
 /* == Search Box == */
         
-#header #branding #search-wrap {
+#header #search-wrap {
 	float: right; 
 	margin: 5px 5px 0 0;
 	}
-#header #branding #search-wrap a {
+#header #search-wrap a {
 	font-size: 1em; 
 	color: #fff; 
 	margin-top: .25em; 
@@ -128,14 +120,14 @@ h3 a {
 	}
 
 /* == Top Navigation == */
-#header #branding ul {
+#header ul {
 	float: right; 
 	width:578px; 
 	padding:0 15px 0 60px; 
 	text-align:right; 
 	color: #000;
 	}
-#header #branding ul li {
+#header ul li {
 	margin-left: 12px; 
 	}
         
@@ -253,11 +245,24 @@ h3 a {
 /* Reusable classes */
 .hide {text-indent: -1000em; width: 0; height: 0; overflow: hidden;}
 
-.navigation {list-style:none; margin: 2em 0 0;}
-	.navigation li {display:inline;}
-	.navigation a {text-decoration:none; color: #000;}
-	.navigation a:hover {color: #5b5450; text-decoration: none;}
-        #header #footer .navigation li {font-size:1.5em;}
+.navigation {
+	list-style:none; 
+	margin: 2em 0 0;
+	}
+.navigation li {
+	display:inline;
+	}
+.navigation a {
+	text-decoration:none; 
+	color: #fff;
+	}
+.navigation a:hover {
+	color: #5b5450; 
+	text-decoration: none;
+	}
+#header #footer .navigation li {
+	font-size:1.5em;
+	}
 
 .item-pagination {overflow:hidden;width:830px;border-top:1px solid #ccc; padding:1.5em 0 1.5em 0;}
 .item-pagination li.previous {display:block;float:left; width:48%;}
