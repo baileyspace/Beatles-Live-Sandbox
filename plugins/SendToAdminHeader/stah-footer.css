@@ -1,0 +1,33 @@
+/*hide unused fields*/ 
+
+/*Location*/
+#element-4,
+/*Transcription*/
+#element-5,
+/*Original Format*/
+#element-7,
+/*Bit Rate*/
+#element-15,
+/*Time Summary*/
+#element-16,
+/*Contributor*/
+#element-37,
+/*Coverage*/
+#element-38,
+/*Language*/
+#element-44,
+/*Publisher*/
+#element-45,
+/*Relation*/
+#element-46,
+/*Source*/
+#element-48,
+/*Subject*/
+#element-49,
+/*Type*/
+#element-51{
+	display:none;visibility: hidden;
+	}
+	
+div#files-metadata h3,#location_form label{margin-top:10px;}
+.element-set-description{font-size: 1.1em;line-height: 1.35em;}
