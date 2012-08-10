@@ -26,13 +26,12 @@
 	<div id="wrap">
 
 		<div id="header">
+				
 				<div id="search-wrap">
 					<?php echo simple_search(); ?>
 					<?php echo link_to_advanced_search(); ?>
 				</div>
-				<div id="site-title">	
-					<?php echo link_to_home_page(); ?>
-				</div>
+				<?php echo link_to_home_page('View Public Site',array('id'=>'bllogo')); ?>
 				<ul class="navigation"> <?php echo public_nav_main(array('Home' => uri(''), 'Browse Items' => uri('items'), 'Go On Tour'=>uri('collections')));?></ul>				
 		</div>
 		

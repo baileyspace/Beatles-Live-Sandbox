@@ -86,25 +86,26 @@ h3 a {
 
 /* == Header == */
 
-#header { 
-	min-height: 19em; 
-	padding: 2em 1em 0 1em; 
+#header {
+	min-height: 160px; 
+	padding: 10px 110px 10px 59px;	
+}
+
+#bllogo { 
+
+		display: block; 
+		width:245px;
+		height: 160px;
+		background-color: black;
+		background-image: url('../images/BeatlesLiveNow_300.jpg');
+		text-indent:-9999px;	
+		background-position:0% 50%;
+		float: left;
 	}
 
         
 /* == Linked Main Title == */
-#site-title a {
-	visibility: hidden;
-	}
-#site-title {
-	width:auto;
-	height: 160px;
-	background-color: black;
-	background-image: url('../images/BeatlesLiveNow_300.jpg');
-	background-repeat:no-repeat;	
-/*	background-attachment:fixed;
-*/	background-position:17% 0%;
-	}
+
         
 /* == Search Box == */
         
@@ -123,7 +124,7 @@ h3 a {
 #header ul {
 	float: right; 
 	width:578px; 
-	padding:0 15px 0 60px; 
+	padding:50px 15px 0 60px; 
 	text-align:right; 
 	color: #000;
 	}
@@ -170,16 +171,16 @@ h3 a {
 
 .moviebars {
 	background: black;
-	width: 100px;
-	height: 525px;
+	width: 150px;
+	height: 450px;
 	float: left;
 }
             
             /* To disable or change the text on a button, alter "index.php" To change the background image, alter "/images/splash.jpg" */
 .youtube {
 	display: block; 
-	width: 700px;
-	height: 525px; 
+	width: 600px;
+	height: 450px; 
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -248,6 +249,7 @@ h3 a {
 .navigation {
 	list-style:none; 
 	margin: 2em 0 0;
+	float:right;
 	}
 .navigation li {
 	display:inline;

@@ -1,11 +1,8 @@
 @import url("screen.css");
 
-#header {background: #000;}
-#branding {background: #fff;}
-
+#header {background: black;}
 #content {background:#fff;}
-
-#footer {background:#fff;}
+#footer {background:black;}
 #branding-footer {background: #fff;}
 #content {background: #5b5450;}
 #primary-index {background: #5b5450;}
