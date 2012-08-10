@@ -5,13 +5,14 @@
 
 			<h1>Browse Items</h1>
 	
-			<ul class="navigation" id="secondary-nav">
+			<ul class="secondary-nav">
 				<?php
 					$itemsCount = ' (' . count(get_items(array('featured' => true))) . ')';
 					$tagCount = ' (' . count(get_tags()) . ')'; 
 					echo nav(array('Browse All' . $itemsCount => uri('items'), 'Browse by Tag' . $tagCount => uri('items/tags')));
 				?>
 			</ul>
+			<div class="clear"></div>
 			
 			<div class="pagination">
 				<?php echo pagination_links(); ?>

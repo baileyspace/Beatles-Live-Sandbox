@@ -135,6 +135,7 @@ h3 a {
 /* == Content == */
 #content {
 	background:#fff;
+	height: 100%;
 	}
 
 #primary-index {
@@ -171,37 +172,111 @@ h3 a {
 
 .moviebars {
 	background: black;
-	width: 150px;
-	height: 450px;
+	width: 200px;
+	height: 375px;
 	float: left;
 }
             
-            /* To disable or change the text on a button, alter "index.php" To change the background image, alter "/images/splash.jpg" */
 .youtube {
 	display: block; 
-	width: 600px;
-	height: 450px; 
+	width: 500px;
+	height: 375px; 
 	float: left;
 	margin: 0px;
 	padding: 0px;
 	}
+
+/*Three images below the youtube player	
+*/	
+#shareimg, #aboutimg, #tourimg {
+	display: block; 
+	background-color: black;
+	float: left;
+}	
+
+#beatlesimgs a {
+	font-family: Bootle, arial, sans-serif;
+	color: white;
+	font-size: 3em;
+	line-height: 9em;
+	text-decoration: none;
+	text-align: center;
+	}
+	
+#beatlesimgs a:hover {
+	color:#BF0426;
+}
+
+#shareimg {
+	background: url('../images/no-img.jpg') no-repeat scroll center center;
+	background-size: 276px 182px;
+	background-color: black;
+	width: 300px;
+	height: 200px;
+}
+
+#aboutimg {
+	background: url('../images/no-img.jpg') no-repeat scroll center center;
+	background-size: 276px 182px;
+	width: 300px;
+	height: 200px;
+	background-color: black;
+}
+
+#tourimg {
+	background: url('../images/no-img.jpg') no-repeat scroll center center;
+	background-size: 276px 182px;
+	width: 300px;
+	height: 200px;
+	background-color: black;
+}
+	
+
                 
 /* == Navigation for Browsing / Item Pages == */        
                 
             .secondary-left {float: left; width: 33%; height: 200px; border: 1px solid #b9f9b9;}
             .secondary-centre {float: left; width: 33%; height: 200px; margin: auto; border: 1px dotted #f01f01; padding: 50px 50px 50px 50px;}
-            .secondary-right {float: right; width: 33%; height: 200px; border: 1px dashed #000;}
-
-            #secondary-nav {margin-bottom:1em; border-bottom:1px solid #ccc;margin-bottom:0;padding:0.4em 0.5em; font-size:1.5em; }
-            #secondary-nav li {padding:0.5em 0;}
-            #secondary-nav a {padding:0.5em 1em 0.5em; color:#666;}
-            #secondary-nav .current a{border-top:1px solid #ccc;background:#fff;color:#333; font-weight:bold;border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #fff;}
+            .secondary-right {float: right; width: 33%; height: 200px; border: 1px dashed #000;}				
+            .secondary-nav {
+				list-style:none; 
+				margin-bottom:1em; 
+				border-bottom:1px solid #ccc;
+				margin-bottom:0;
+				padding:0.4em 0.5em; 
+				font-size:1.5em;
+				float:right; 
+				}
+            .secondary-nav li {
+				display:inline;
+				padding:0.5em 0;
+				}
+            .secondary-nav a {
+				text-decoration:none;
+				padding:0.5em 1em 0.5em; 
+				color:#666;
+				}
+            .secondary-nav .current a{
+				border-top:1px solid #ccc;
+				background:#fff;color:#333; 
+				font-weight:bold;
+				border-left:1px solid #ccc; 
+				border-right:1px solid #ccc; 
+				border-bottom:1px solid #fff;
+				}
             
             .pagination ul {text-align: right; line-height: 1em; padding: 0.5em;}
             .pagination li {display: inline; padding: 0 0.5em 0 0.5em;}
 
         /* == Individual Items == */
-            .item-entry {width: 227px; min-height: 40em; overflow: hidden; float: left; display: block; padding: 20px 38px 5px 35px;}
+            .item-entry {
+				width: 227px; 
+				min-height: 20em; 
+				overflow: hidden; 
+				float: left; 
+				display: block; 
+				padding: 20px 38px 5px 35px;
+				}
             .item-entry .item-img img {margin-bottom:2em; padding: 6px; border:1px solid #ccc;}
             .item-img-solo {margin-bottom:2em; padding: 6px; border: 1px solid #ccc; float: right;}
             
@@ -235,7 +310,14 @@ h3 a {
             .exhibit-page-nav li {font-size:1.5em;} 
 
 /* == Footer == */
-#footer {clear:both; overflow:hidden; background:#fff; min-height: 5em;}
+#footer {
+	clear:both; 
+	overflow:hidden; 
+	background:#fff; 
+	min-height: 5em;
+	text-align: right;
+	padding: 15px 0;
+	}
 	#branding-footer {background: #fff; width: 900px; margin-left: auto; margin-right: auto; min-height: 8em;  border-left: solid 1px #fff; border-right: solid 1px #fff;}
         #footer #branding-footer p {clear: both; overflow: hidden; float: right; font-size: 0.8em; color: #fff; padding: 0 15px 0;}
         #footer #branding-footer a {color: #000; text-decoration: none;}
@@ -250,6 +332,8 @@ h3 a {
 	list-style:none; 
 	margin: 2em 0 0;
 	float:right;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.4em;
 	}
 .navigation li {
 	display:inline;

@@ -3,16 +3,16 @@
 <div id="primary-index">
 	<div class="clear"></div>
 	<div class="moviebars"></div>
-	<div class= "youtube"><iframe width="600" height="450" src="http://www.youtube.com/embed/7pQPjpX82z8" frameborder="0" allowfullscreen></iframe></div>
+	<div class= "youtube">
+		<iframe width="500" height="375" src="http://www.youtube.com/embed/oWzs3YbtehI" frameborder="0" allowfullscreen></iframe>
+	</div>
 	<div class="moviebars"></div>
-	<div class="beatlesimgs">
-		<a href= '<?php echo uri('contribution'); ?>' id='bimg1'>WORDSSS</a>
-		<a href= '<?php echo uri('collections'); ?>' id='bimg2'>WORDSSS</a>
-		<a href= '<?php echo uri('collections'); ?>' id='bimg3'>WORDSSS</a>
+	<div id="beatlesimgs">
+		<a href= '<?php echo uri('contribution'); ?>' id='shareimg'>Share a Memory</a>
+		<a href= '<?php echo uri('collections'); ?>' id='aboutimg'>News and Updates</a>
+		<a href= '<?php echo uri('collections'); ?>' id='tourimg'>Go On Tour!</a>
 		<!-- <?php echo link_to_collections(array('Go On Tour'));?> -->
  	</div>
     
 </div><!-- end primary -->
-
 <?php foot(); ?>
-<!-- ,array('id'=>'bllogo') -->
